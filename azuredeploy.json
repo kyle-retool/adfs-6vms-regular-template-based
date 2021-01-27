@@ -187,7 +187,7 @@
     }
   },
   "variables": {
-    "baseUrl": "https://raw.githubusercontent.com/paulomarquesc/adfs-6vms-regular-template-based/master/",
+    "baseUrl": "https://raw.githubusercontent.com/kyle-retool/adfs-6vms-regular-template-based/main/",
     "storageAccountNamePrefix": "[concat(uniquestring(resourceGroup().id),'sa')]",
     "deployStorageAccountsUrl": "[concat(variables('baseUrl'),'/deployStorageAccounts.json')]",
     "deployPublicIPsUrl": "[concat(variables('baseUrl'),'/deployPublicIPs.json')]",
